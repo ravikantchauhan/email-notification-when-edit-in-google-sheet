@@ -1,0 +1,20 @@
+A parent just signed up for the upcoming Parent-Teachers conference. Please see the highlighted row below for information about the new sign up.
+<hr>
+<br>
+<table cellpadding='5'>
+  <tr>
+    <th bgcolor='#eaeaea'><?= headerRow[0] ?></th>
+    <th bgcolor='#eaeaea'><?= headerRow[1] ?></th>
+    <th bgcolor='#eaeaea'><?= headerRow[2] ?></th>
+  </tr>
+  <? var rowIndex = 3; ?>
+  <? for(var i = 0; i < rows.length; i++) { ?>
+  <?   var background = rowIndex === editedRow ? "#e06666" : "#ffffff";  ?>
+  <tr>
+    <td bgcolor='<?= background ?>'><?= rows[i][0] ?></td>
+    <td bgcolor='<?= background ?>'><?= rows[i][1] ?></td>
+    <td bgcolor='<?= background ?>'><?= rows[i][2] ?></td>
+  </tr>
+  <?    rowIndex = rowIndex + 1; ?>
+  <? } ?>
+</table>
