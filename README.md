@@ -43,14 +43,8 @@ Parents can sign up for a slot by entering their child's name in the third colum
 Step 2.1 — Create the script
 Open the Script editor by selecting Tools —> Script editor and replace the code in the editor with the code below.
 ⚠ Please replace the email address in the code snippet below with your email address.
-//@OnlyCurrentDoc
-function processEdit(e) {  
-  MailApp.sendEmail({
-    to: "youremail@example.com",
-    subject: "New sign up -- parent teachers conference",
-    body: "The Parent-Teacher conference sign up sheet was edited."
-  });
-}
+
+![Code.gs]
 
 How does the above code work?
 The processEdit() function will be run (by the trigger that you'll be setting up shortly) whenever your spreadsheet is edited.
