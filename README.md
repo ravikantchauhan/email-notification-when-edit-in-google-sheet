@@ -44,7 +44,7 @@ Step 2.1 — Create the script
 Open the Script editor by selecting Tools —> Script editor and replace the code in the editor with the code below.
 ⚠ Please replace the email address in the code snippet below with your email address.
 
-![Code.gs]
+## ![Code.gs]
 
 How does the above code work?
 The processEdit() function will be run (by the trigger that you'll be setting up shortly) whenever your spreadsheet is edited.
